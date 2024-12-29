@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!./bin/python3
 # -*- coding: utf-8 -*-
 #
 # Copyright (c) 2020 by Harald Klein <hari@vt100.at> - All rights reserved
