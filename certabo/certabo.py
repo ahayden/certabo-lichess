@@ -24,9 +24,11 @@ import chess
 from certabo import codes
 from certabo import serialreader
 
-CERTABO_DATA_PATH = appdirs.user_data_dir("GUI", "Certabo")
-CALIBRATION_DATA = os.path.join(CERTABO_DATA_PATH,"calibration.bin")
-os.makedirs(CERTABO_DATA_PATH, exist_ok=True)
+#CERTABO_DATA_PATH = appdirs.user_data_dir("GUI", "Certabo")
+#CALIBRATION_DATA = os.path.join(CERTABO_DATA_PATH,"calibration.bin")
+#os.makedirs(CERTABO_DATA_PATH, exist_ok=True)
+
+CALIBRATION_DATA = "./calibration.bin"
 
 class Certabo():
     def __init__(self, port='auto', calibrate=0, **kwargs):
